@@ -1,0 +1,93 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #ff6666;
+    color: white;
+}
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.hero h1 {
+    font-size: 28px;
+}
+.btn {
+    background: white;
+    color: #ff6666;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #fff4f4;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: left;
+}
+#about {
+    background: white;
+    color: black;
+}
+#portfolio {
+    background: #ddd;
+}
+#contact {
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: flex;
+    justify-content: space-around;
+}
+.project {
+    background: white;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
